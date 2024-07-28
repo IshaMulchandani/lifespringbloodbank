@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSpring Blood Bank</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Assets/lifespring-blood-bank-favicon-white.png" type="image/x-icon">
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/e304935c21.js" crossorigin="anonymous"></script>
+    <h1 id="logoBg"><img src="./Assets/lifespring-blood-bank-high-resolution-logo.png" alt=""></h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#hist">History</a></li>
+            <li><a href="#career">Careers</a></li>
+            <li><a href="#cont">Contact Us</a></li>
+        </ul>
+    </div>
+        <div class="homePage" id="home">
+            <div class="homeSec1">
+                <h3>Who are we?</h3>
+                <p>Welcome to Lifespring Blood Bank, where we believe in the power of giving life. Our mission is to connect patients in need with generous donors, ensuring a seamless and efficient process for lifesaving blood donations and transfusions. With a network of registered hospitals, donation centers, and transfusion facilities, Lifespring Blood Bank is dedicated to supporting communities and saving lives every day. Join us in making a difference and be a part of the lifeline that keeps our world thriving.</p>
+            </div>
+        </div>
+      <div class="aboutUs" id="about">
+        <h1 class="abtH1">About Us</h1><br>
+        <div class="visMis">
+          <h3>Vision & Mission</h3><br>
+          <div class="vision">
+            <h3>Our Vision</h3><br>
+            <ul class="visionList">
+              <li>Saving Lives Through Unity</li>
+              <li>Universal Access</li>
+              <li>Innovative Solutions</li>
+              <li>Sustainable Impact</li>
+            </ul>
+          </div>
+          <br>
+          <div class="mission">
+            <h3>Our Mission</h3><br>
+            <ul class="missionList">
+              <li>Connect Donors and Patients</li>
+              <li>Education and Awareness</li>
+              <li>Quality and Safety</li>
+              <li>Community Engagement</li>
+            </ul>
+          </div>
+        </div><br><br>
+        <h3>Meet Our Team</h3><br><br>
+        <div class="team">
+          <div class="teamMem" id="member1" onmouseenter="mem1animate()" onmouseleave="mem1deanimate()">
+            <img id="person1img" src="./Assets/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="">
+            <h5 id="person1name">Aakash Sharma</h5><br>
+            <p>CEO and Founder</p>
+          </div>
+          <div class="teamMem" id="member2" onmouseenter="mem2animate()" onmouseleave="mem2deanimate()">
+            <img id="person2img" src="./Assets/person2.avif" alt="">
+            <h5 id="person2name">Priya Ahuja</h5><br>
+            <p>Events and Projects Head</p>
+          </div>
+          <div class="teamMem" id="member3" onmouseenter="mem3animate()" onmouseleave="mem3deanimate()">
+            <img id="person3img" src="./Assets/person3.jpg" alt="">
+            <h5 id="person3name">Asha Daswani</h5><br>
+            <p>External Relations Liason</p>
+          </div>
+        </div>    
+      </div>
+      <div class="history" id="hist">
+        <h1>History</h1>
+        <div class="historySec1">
+          <p>In the summer of 2010, Aakash Sharma, a young and visionary medical student, witnessed a heart-wrenching incident that would change his life forever. During his internship at a bustling urban hospital, a critically ill child lost his battle simply because a compatible blood donor couldn't be found in time. Deeply moved and driven by a sense of urgency, Aakash realized the dire need for a more efficient and accessible blood donation system.</p>
+          <img src="./Assets/firstDonantion.jpeg" alt="Our first successful donation">
+        </div>
+        <div class="historySec2">
+          <img src="./Assets/firstCamp.jpeg" alt="The first donation center established by Lifespring blood bank">
+          <p>With unwavering determination, he founded Lifespring Blood Bank in 2012, envisioning a future where no life would be lost due to a lack of blood. Through tireless efforts and innovative thinking, Lifespring rapidly grew, establishing a vast network of hospitals, donation centers, and transfusion facilities.</p>
+        </div>
+        <div class="historySec3">
+          <p>Today, it stands as a beacon of hope, connecting patients and donors seamlessly, and embodying Aakash's dream of saving lives through unity and compassion.</p>
+          <img src="./Assets/center.jpeg" alt="State of the art equipment in all centers">
+        </div>
+      </div>
+      <div class="careers" id="career">
+        <h1>Volunteer at Our Centers Today!</h1><br><br><br>
+        <form action="https://formspree.io/f/xvgpkzre" method="post">
+          <input name="name" type="text" placeholder="Enter your full name*" required>
+          <br><br><br>
+          <input name="email" type="email" placeholder="Enter your email address*" required>
+          <br><br><br>
+          <input name="phNumber" type="number" placeholder="Enter your phone number*" required>
+          <br><br><br>
+          <label for="city">Choose your city*</label><br><br>
+          <select name="city" id="">
+            <option value="null" disabled selected>Select</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Guwahati">Guwahati</option>
+            <option value="Surat">Surat</option>
+          </select>
+          <br><br><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="contactUs" id="cont">
+        <div class="call">
+          <h3><i class="fa-solid fa-phone"></i>  Call Us</h3><br>
+          <p>+91 87546 73290</p>
+        </div>
+        <div class="mail">
+          <h3><i class="fa-solid fa-envelope-open"></i>  Email us</h3><br>
+          <p>queries@lifespringblood.in</p>
+        </div>
+        <div class="address">
+          <h3><i class="fa-solid fa-feather"></i>  Write to us</h3><br>
+          <p>Ground Floor, Shree Ganesh Complex,<br>
+            Sector 14, Vashi,<br>
+            Navi Mumbai, Maharashtra - 400703 <br>
+            India.</p>
+        </div>
+      </div>
+      <footer>
+        <p>Created by team Lifespring</p>
+      </footer>
+
+    <script src="./demo.js"></script>
+</body>
+</html>
